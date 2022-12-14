@@ -1,31 +1,47 @@
-body{
-    background-image: url("images/spruceTree.png");
-    background-size: 1920px 1080px;
-    align-items: center;
+body {
+  background-image: url("images/spruceTree.png");
+  background-size: 1920px 1080px;
+  background-repeat: no-repeat;
+  align-items: center;
 }
 
-h1{
-    text-align: center;
-    color:rgb(215, 69, 69);
+h1 {
+  text-align: center;
+  color: rgb(215, 69, 69);
 }
 
-h2{
-    text-align: center;
-    color:rgb(215, 69, 69);
+h2 {
+  text-align: center;
+  color: rgb(215, 69, 69);
 }
 
-.sc{
-    text-align: center;
-    border: 10px solid #36b447;
-    border-image-width: 4px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.sc {
+  text-align: center;
+  border: 10px solid #36b447;
+  border-image-width: 4px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.scText{
-    text-align: center;
-    color:rgb(255, 177, 177);
-    font-size: large;
-    background-color: greenyellow;
+.scText {
+  text-align: center;
+  color: rgb(255, 177, 177);
+  font-size: large;
+  background-color: greenyellow;
+}
+
+p {
+  text-align: center;
+  color: rgb(145, 45, 45);
+}
+
+span {
+  text-align: center;
+}
+
+.h1a {
+  background-color: #25782c;
+  text-align: center;
+  color: rgb(215, 69, 69);
 }

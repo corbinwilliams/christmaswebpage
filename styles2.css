@@ -1,0 +1,46 @@
+body {
+  background-image: url("images/cyberpunkwallpaper.png");
+  background-size: auto;
+  color: white;
+}
+
+img {
+  float: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.text {
+  position: sticky;
+  top: 0;
+  display: none;
+}
+
+div.text:target {
+  display: block;
+}
+
+@media screen and (min-width: 768px) {
+  div.text {
+    float: right;
+  }
+}
+
+.Meiko {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 500px;
+  width: 500px;
+}
+
+.Copic {
+  height: 500px;
+  width: 612px;
+}
+
+p {
+  margin-top: 100px;
+  font-size: large;
+}
