@@ -9,22 +9,8 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-}
-
-div.text {
-  position: sticky;
-  top: 0;
-  display: none;
-}
-
-div.text:target {
-  display: block;
-}
-
-@media screen and (min-width: 768px) {
-  div.text {
-    float: right;
-  }
+  border: 10px solid #36b447;
+  border-image-width: 4px;
 }
 
 .Meiko {
@@ -43,4 +29,21 @@ div.text:target {
 p {
   margin-top: 100px;
   font-size: large;
+  font-family: cursive;
+}
+
+
+h2{
+  text-align: center;
+  font-family: cursive;
+}
+
+h3{
+  margin: 100px;
+  font-family: cursive;
+}
+
+h1{
+  text-align: center;
+  font-family: cursive;
 }

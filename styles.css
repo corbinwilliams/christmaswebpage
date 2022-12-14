@@ -8,6 +8,7 @@ body {
 h1 {
   text-align: center;
   color: rgb(215, 69, 69);
+  font-family: cursive;
 }
 
 h2 {
@@ -28,12 +29,13 @@ h2 {
   text-align: center;
   color: rgb(255, 177, 177);
   font-size: large;
-  background-color: greenyellow;
+  background-color: #36b447;
 }
 
 p {
   text-align: center;
   color: rgb(145, 45, 45);
+  font-family: cursive;
 }
 
 span {
@@ -41,7 +43,7 @@ span {
 }
 
 .h1a {
-  background-color: #25782c;
+  background-color: #36b447;
   text-align: center;
   color: rgb(215, 69, 69);
 }
